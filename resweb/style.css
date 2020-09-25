@@ -17,9 +17,10 @@ h1{
  width:500px;
  height:350px;
  margin:6px;
- transition: all 3s;
+ transition: all transform 1s ease-in-out;
  box-shadow: 3px 3px 3px #800000;
  }
  img:hover{
- transform: rotateX(360deg);
+ transform: rotate(90deg);
+ transform: rotate(-30deg);
  }
