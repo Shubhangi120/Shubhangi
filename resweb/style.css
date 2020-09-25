@@ -10,13 +10,13 @@ h1{
 }
 .shubh{
  display:flex;
- flex-wrap:wrap;
+ flex-wrap: wrap;
  justify-content:center;
  }
  
  img{
- width:450px;
- height:350px;
+ width:400px;
+ height:300px;
  margin:6px;
  transition:all 1s;
  box-shadow: 3px 3px 3px #800000;
