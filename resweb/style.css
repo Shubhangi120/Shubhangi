@@ -18,12 +18,10 @@ h1{
  width:500px;
  height:350px;
  margin:6px;
- transition: all transform 0.3s ease;
+ transition: transform all 1s;
  box-shadow: 3px 3px 3px #800000;
  }
  img:hover{
- transform: skew(90deg);
- transform: skewX(90deg);
- transform: skewY(-50deg);
- transform: skew(90deg,-50deg);
+background: translate(20px,20px);
+
  }
