@@ -1,0 +1,39 @@
+body{
+  width: 60%;
+  margin:auto;
+  margin-top: 5rem;
+  background-color:#8FBC8F ;
+  }
+h1{
+  color: #E0FFFF;
+  text-align:center;
+}
+#h1-hover:hover{
+display: block;
+background-color : red;
+text-align: center;
+font-size: 60px;
+}
+h2 {
+  color: #E0FFFF;
+  text-align:center;
+}
+.shubh{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content:center;
+ 
+ }
+ 
+ img{
+ width:250px;
+ height:250px;
+ margin:6px;
+ transition:all 1s;
+ box-shadow: 3px 3px 3px #800000;
+ }
+ img:hover{
+transform:rotateY(180deg) scale(1,0.5);
+}
+
+ 
